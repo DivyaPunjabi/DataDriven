@@ -15,7 +15,7 @@ public void readExcel(String filename) throws IOException
 {
 	FileInputStream fis=new FileInputStream(filename);
 	wb= new XSSFWorkbook(fis);
-	System.out.println("Github Changes");
+	
 	
 }
 
@@ -32,7 +32,7 @@ public int getRowCount(String sheetname)
 
 public int getColumnCount(String sheetname)
 {
-	System.out.println("Github Changes");
+	System.out.println("Github Changes Done");
 	sheet=wb.getSheet(sheetname);
 	int row=sheet.getLastRowNum();
 	int columns=sheet.getRow(row).getLastCellNum();
