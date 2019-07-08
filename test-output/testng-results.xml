@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20565" started-at="2019-06-25T10:57:52Z" finished-at="2019-06-25T10:58:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20565" started-at="2019-06-25T10:57:52Z" finished-at="2019-06-25T10:58:13Z">
+      <class name="com.model.MercuryToursTest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="OpenBrowser" is-config="true" duration-ms="4817" started-at="2019-06-25T16:27:48Z" finished-at="2019-06-25T16:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="EnterApplicationUrl()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="EnterApplicationUrl" is-config="true" duration-ms="2138" started-at="2019-06-25T16:27:52Z" finished-at="2019-06-25T16:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterApplicationUrl -->
+        <test-method status="PASS" signature="maximizeBrowser()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="maximizeBrowser" is-config="true" duration-ms="1523" started-at="2019-06-25T16:27:55Z" finished-at="2019-06-25T16:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizeBrowser -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="getAllCookies" is-config="true" duration-ms="32" started-at="2019-06-25T16:27:59Z" finished-at="2019-06-25T16:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithValidds(java.lang.String, java.lang.String)[pri:0, instance:com.model.MercuryToursTest@357246de]" name="loginwithValidds" duration-ms="4461" started-at="2019-06-25T16:27:59Z" data-provider="getData" finished-at="2019-06-25T16:28:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValidds -->
+        <test-method status="PASS" signature="captureScreenShot()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="captureScreenShot" is-config="true" duration-ms="463" started-at="2019-06-25T16:28:03Z" finished-at="2019-06-25T16:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="getAllCookies" is-config="true" duration-ms="12" started-at="2019-06-25T16:28:04Z" finished-at="2019-06-25T16:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithValidds(java.lang.String, java.lang.String)[pri:0, instance:com.model.MercuryToursTest@357246de]" name="loginwithValidds" duration-ms="3775" started-at="2019-06-25T16:28:04Z" data-provider="getData" finished-at="2019-06-25T16:28:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValidds -->
+        <test-method status="PASS" signature="captureScreenShot()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="captureScreenShot" is-config="true" duration-ms="502" started-at="2019-06-25T16:28:08Z" finished-at="2019-06-25T16:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="getAllCookies" is-config="true" duration-ms="34" started-at="2019-06-25T16:28:08Z" finished-at="2019-06-25T16:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithValidds(java.lang.String, java.lang.String)[pri:0, instance:com.model.MercuryToursTest@357246de]" name="loginwithValidds" duration-ms="4182" started-at="2019-06-25T16:28:08Z" data-provider="getData" finished-at="2019-06-25T16:28:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValidds -->
+        <test-method status="PASS" signature="captureScreenShot()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="captureScreenShot" is-config="true" duration-ms="538" started-at="2019-06-25T16:28:12Z" finished-at="2019-06-25T16:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="deleteAllCookies" is-config="true" duration-ms="31" started-at="2019-06-25T16:28:13Z" finished-at="2019-06-25T16:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="dbConnectionClosed()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="dbConnectionClosed" is-config="true" duration-ms="0" started-at="2019-06-25T16:28:13Z" finished-at="2019-06-25T16:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnectionClosed -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.model.MercuryToursTest@357246de]" name="closeBrowser" is-config="true" duration-ms="2163" started-at="2019-06-25T16:28:13Z" finished-at="2019-06-25T16:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.model.MercuryToursTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
