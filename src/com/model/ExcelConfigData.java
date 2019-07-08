@@ -21,7 +21,6 @@ public void readExcel(String filename) throws IOException
 
 public int getRowCount(String sheetname)
 {
-	System.out.println("Github Changes");
 	sheet=wb.getSheet(sheetname);
 	int rows=sheet.getLastRowNum();
 	System.out.println("Rows are:"+rows);
