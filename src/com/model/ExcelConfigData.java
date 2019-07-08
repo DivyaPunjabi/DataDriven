@@ -15,21 +15,25 @@ public void readExcel(String filename) throws IOException
 {
 	FileInputStream fis=new FileInputStream(filename);
 	wb= new XSSFWorkbook(fis);
+	System.out.println("Github Changes");
 	
 }
 
 public int getRowCount(String sheetname)
 {
+	System.out.println("Github Changes");
 	sheet=wb.getSheet(sheetname);
 	int rows=sheet.getLastRowNum();
 	System.out.println("Rows are:"+rows);
 	int rowcount=rows+1;
 	System.out.println("Total rows are:"+ rowcount);
 	return rowcount;
+	
 }
 
 public int getColumnCount(String sheetname)
 {
+	System.out.println("Github Changes");
 	sheet=wb.getSheet(sheetname);
 	int row=sheet.getLastRowNum();
 	int columns=sheet.getRow(row).getLastCellNum();
