@@ -43,6 +43,7 @@ public class MercuryToursTest
 	     boolean exp_flag=true;
 	     Assert.assertEquals(act_flag, exp_flag);
 	     driver.findElement(By.linkText("SIGN-OFF")).click();
+	     System.out.println("git hub changes");
 	  
   }
   
